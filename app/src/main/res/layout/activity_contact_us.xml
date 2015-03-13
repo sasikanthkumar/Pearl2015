@@ -1,0 +1,375 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0000000"
+
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:theme="@style/Toolbar">
+
+        <TextView
+            android:id="@+id/contactUsToolbarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text="Contact Us"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@android:color/transparent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/nikhilText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="Nikhil Potluri"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/nikhilDesig"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:text="President"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+
+                    <!--       <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center"
+                               android:autoLink="phone"
+                               android:gravity="center"
+                               android:text="+91-9542554003"
+                               android:textColor="@android:color/background_dark"
+                               android:textSize="20sp" />-->
+                </LinearLayout>
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/nikhilCallFab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    fab:fab_colorNormal="#F4511E"
+                    fab:fab_colorPressed="#000000"
+                    fab:fab_icon="@drawable/ic_phone_white_48dp"
+                    fab:fab_size="mini" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/vishnuText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="Vishnu Saran"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/vishnuDesig"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:text="General Secretary"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                    <!--     <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_gravity="center"
+                             android:autoLink="phone"
+                             android:gravity="center"
+                             android:text="+91-9848294152"
+                             android:textColor="@android:color/background_dark"
+                             android:textSize="20sp" />-->
+
+                </LinearLayout>
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/vishnuCallFab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    fab:fab_colorNormal="#F4511E"
+                    fab:fab_colorPressed="#000000"
+                    fab:fab_icon="@drawable/ic_phone_white_48dp"
+                    fab:fab_size="mini" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+
+                    android:orientation="vertical"
+
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/devrathText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="Devrath Goyal"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/devrathDesig"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:text="Sponsorship"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                    <!--     <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_gravity="center"
+                             android:autoLink="phone"
+                             android:gravity="center"
+                             android:text="+91-8498085505"
+                             android:textColor="@android:color/background_dark"
+                             android:textSize="20sp" />-->
+                </LinearLayout>
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/devrathCallFab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    fab:fab_colorNormal="#F4511E"
+                    fab:fab_colorPressed="#000000"
+                    fab:fab_icon="@drawable/ic_phone_white_48dp"
+                    fab:fab_size="mini" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+
+                    android:orientation="vertical"
+
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/pradyumnaText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="Pradyumna Kiran"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/pradyumnaDesig"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:text="Publicity"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                    <!--  <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center"
+                          android:autoLink="phone"
+                          android:gravity="center"
+                          android:text="+91-9010300025"
+                          android:textColor="@android:color/background_dark"
+                          android:textSize="20sp" />-->
+                </LinearLayout>
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/padyumnaCallFab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    fab:fab_colorNormal="#F4511E"
+                    fab:fab_colorPressed="#000000"
+                    fab:fab_icon="@drawable/ic_phone_white_48dp"
+                    fab:fab_size="mini" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+
+                    android:orientation="vertical"
+
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/arjunText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="Arjun Deshpande"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/arjunDesig"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:text="Hospitality"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+
+                    <!--     <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_gravity="center"
+                             android:autoLink="phone"
+                             android:gravity="center"
+                             android:text="+91-9948582067"
+                             android:textColor="@android:color/background_dark"
+                             android:textSize="20sp" />-->
+                </LinearLayout>
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/arjunCallFab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    fab:fab_colorNormal="#F4511E"
+                    fab:fab_colorPressed="#000000"
+                    fab:fab_icon="@drawable/ic_phone_white_48dp"
+                    fab:fab_size="mini" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient2" />
+
+        </LinearLayout>
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+</LinearLayout>

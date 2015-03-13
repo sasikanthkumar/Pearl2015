@@ -1,0 +1,437 @@
+<!--
+  ~ Copyright 2014-2015 Diego Grancini
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/transparent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:theme="@style/Toolbar">
+
+        <TextView
+            android:id="@+id/headlinersTollbarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:text="Proshows"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/relativeTest1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.daimajia.androidviewhover.BlurLayout
+                    android:id="@+id/vishalShekharBlurLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/sourceTest1"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vishalshekh_head" />
+                </com.daimajia.androidviewhover.BlurLayout>
+
+                <TextView
+                    android:id="@+id/vishalShekharText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingBottom="25dp"
+                    android:text="Vishal Shekhar"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+            <!--******* xandria *****-->
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/relativeTest1"
+                android:background="@drawable/gradient" />
+
+            <RelativeLayout
+                android:id="@+id/relativeTest2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.daimajia.androidviewhover.BlurLayout
+                    android:id="@+id/xandriablurLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/sourceTest2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/xandria_head" />
+                </com.daimajia.androidviewhover.BlurLayout>
+
+                <TextView
+                    android:id="@+id/xandriaText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingBottom="25dp"
+                    android:text="Xandria"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+            </RelativeLayout>
+
+
+            <!--******* advaita *****-->
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient" />
+
+            <RelativeLayout
+                android:id="@+id/relativeTest3"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.daimajia.androidviewhover.BlurLayout
+                    android:id="@+id/advaitaBlurLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/sourceTest3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/advaita_head" />
+                </com.daimajia.androidviewhover.BlurLayout>
+
+                <TextView
+                    android:id="@+id/advaitaText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingBottom="25dp"
+                    android:text="Advaita"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient" />
+
+
+            <!--- vh1 super sonic-->
+
+
+            <RelativeLayout
+                android:id="@+id/relativeTest4"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.daimajia.androidviewhover.BlurLayout
+                    android:id="@+id/vhoneBlurLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/sourceTest4"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vh_one_final" />
+                </com.daimajia.androidviewhover.BlurLayout>
+
+                <TextView
+                    android:id="@+id/vhoneText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingBottom="25dp"
+                    android:text="VH1 Supersonic"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient" />
+
+            <RelativeLayout
+                android:id="@+id/relativeTest5"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.daimajia.androidviewhover.BlurLayout
+                    android:id="@+id/mudgalBlurLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/sourceTest5"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mudgal_final" />
+                </com.daimajia.androidviewhover.BlurLayout>
+
+                <TextView
+                    android:id="@+id/mudgalText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:paddingBottom="25dp"
+                    android:text="Arushi Mudgal"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+            </RelativeLayout>
+            <!--       <RelativeLayout
+                       android:id="@+id/relativeTest4"
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                       <com.daimajia.androidviewhover.BlurLayout
+                           android:id="@+id/glitteratiBlurLayout"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content">
+
+                           <ImageView
+                               android:id="@+id/sourceTest4"
+                               android:layout_width="match_parent"
+                               android:layout_height="200dp"
+                               android:scaleType="centerCrop"
+                               android:src="@drawable/glit_head" />
+                       </com.daimajia.androidviewhover.BlurLayout>
+
+                       <TextView
+                           android:id="@+id/glitteratiText"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_centerHorizontal="true"
+                           android:layout_centerVertical="true"
+                           android:gravity="center"
+                           android:paddingBottom="25dp"
+                           android:text="Glitterati"
+                           android:textColor="@android:color/white"
+                           android:textSize="24sp" />
+                   </RelativeLayout>-->
+
+            <!--********** Fraglore *********-->
+
+            <!--      <View
+                      android:layout_width="fill_parent"
+                      android:layout_height="1dp"
+                      android:background="@drawable/gradient" />
+
+                  <RelativeLayout
+                      android:id="@+id/relativeTest5"
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+                      <com.daimajia.androidviewhover.BlurLayout
+                          android:id="@+id/fragloreBlurLayout"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content">
+
+                          <ImageView
+                              android:id="@+id/sourceTest5"
+                              android:layout_width="match_parent"
+                              android:layout_height="200dp"
+                              android:scaleType="centerCrop"
+                              android:src="@drawable/fraglore" />
+                      </com.daimajia.androidviewhover.BlurLayout>
+
+                      <TextView
+                          android:id="@+id/fragloreText"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_centerHorizontal="true"
+                          android:layout_centerVertical="true"
+                          android:gravity="center"
+                          android:paddingBottom="25dp"
+                          android:text="Fraglore"
+                          android:textColor="@android:color/white"
+                          android:textSize="30sp" />
+                  </RelativeLayout>
+      -->
+
+            <!--******* campus princess *****-->
+
+            <!--  <View
+                  android:layout_width="fill_parent"
+                  android:layout_height="1dp"
+                  android:background="@drawable/gradient" />
+
+              <RelativeLayout
+                  android:id="@+id/relativeTest6"
+
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <com.daimajia.androidviewhover.BlurLayout
+                      android:id="@+id/blur_layoutTest6"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+
+                      <ImageView
+                          android:id="@+id/sourceTest6"
+                          android:layout_width="match_parent"
+                          android:layout_height="200dp"
+                          android:scaleType="fitXY"
+                          android:src="@drawable/campusprincess_head" />
+                  </com.daimajia.androidviewhover.BlurLayout>
+
+                  <TextView
+                      android:id="@+id/vishalTest6"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:layout_centerVertical="true"
+                      android:gravity="center"
+                      android:paddingBottom="25dp"
+                      android:text="Campus princes"
+                      android:textColor="@android:color/white"
+                      android:textSize="30sp" />
+              </RelativeLayout>-->
+
+            <!--    <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/gradient" />
+
+                <RelativeLayout
+                    android:id="@+id/relativeTest7"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.daimajia.androidviewhover.BlurLayout
+                        android:id="@+id/tillDeafBlurLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/sourceTest7"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/tilldeaf" />
+                    </com.daimajia.androidviewhover.BlurLayout>
+
+                    <TextView
+                        android:id="@+id/tillDeafText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:paddingBottom="25dp"
+                        android:text="Till Deaf do We Part"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/gradient" />
+
+                <RelativeLayout
+                    android:id="@+id/relativeTest8"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.daimajia.androidviewhover.BlurLayout
+                        android:id="@+id/terpiscoreBlurLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/sourceTest8"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/terpsicore" />
+                    </com.daimajia.androidviewhover.BlurLayout>
+
+                    <TextView
+                        android:id="@+id/terpiscoreText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:paddingBottom="25dp"
+                        android:text="Terpsicore"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp" />
+                </RelativeLayout>-->
+        </LinearLayout>
+
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="0dp">
+
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/tillDeafDetailsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="#F4511E"
+
+                fab:fab_colorPressed="#000000"
+                fab:fab_icon="@drawable/ic_format_list_bulleted_white_48dp"
+                fab:fab_size="mini" />
+
+            <TextView
+                android:id="@+id/tillDeafDetailsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:paddingBottom="5dp"
+                android:typeface="serif"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

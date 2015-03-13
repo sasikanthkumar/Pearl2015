@@ -1,0 +1,209 @@
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/scroll"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shades_back"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <include layout="@layout/padding" />
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/artEvent1Ripple"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            app:mrl_rippleColor="#ffffffff">
+
+            <TextView
+                android:id="@+id/artEvent1Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="20dp"
+                android:text="Avant Grade"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@drawable/gradient2" />
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/artEvent2Ripple"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            app:mrl_rippleColor="#ffffffff">
+
+            <TextView
+                android:id="@+id/artEvent2Text"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="20dp"
+                android:text="Schedios"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@drawable/gradient2" />
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/artEvent3Ripple"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            app:mrl_rippleColor="#ffffffff">
+
+            <TextView
+                android:id="@+id/artEvent3Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+
+                android:gravity="center"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="20dp"
+                android:text="Spawn It"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@drawable/gradient2" />
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/artEvent4Ripple"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            app:mrl_rippleColor="#ffffffff">
+
+            <TextView
+                android:id="@+id/artEvent4Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+
+                android:gravity="center"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="20dp"
+                android:text="Waste smART"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@drawable/gradient2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/shubi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="0dp"
+                    android:paddingTop="20dp"
+                    android:text="SHUBI"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/shubiCallFab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_colorNormal="#F4511E"
+
+                    fab:fab_colorPressed="#000000"
+                    fab:fab_icon="@drawable/ic_phone_white_48dp"
+                    fab:fab_size="mini" />
+
+                <!--     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:autoLink="phone"
+                         android:paddingTop="15dp"
+                         android:text="+91-9542367979"
+                         android:textColor="#ffffff"
+                         android:textSize="24sp" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sanjana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="20dp"
+                    android:text="SANJANA"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/sanjanaCallFab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    fab:fab_colorNormal="#F4511E"
+
+                    fab:fab_colorPressed="#000000"
+                    fab:fab_icon="@drawable/ic_phone_white_48dp"
+                    fab:fab_size="mini" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

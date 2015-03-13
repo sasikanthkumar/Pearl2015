@@ -1,0 +1,446 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context="bits_pearl_2015.org.pearl_2015.SplashScreen">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="75dp"
+
+        android:background="#f0000000">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/header1"
+                android:layout_width="fill_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="0dp"
+
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/gallery"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp" />
+
+                <FrameLayout
+                    android:id="@+id/transparent_background1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:padding="10dp">
+
+
+                </FrameLayout>
+
+                <com.daimajia.slider.library.Indicators.PagerIndicator
+                    android:id="@+id/custom_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="7dp"
+
+                    custom:selected_color="#ff000000"
+                    custom:selected_height="8dp"
+                    custom:selected_padding_left="3dp"
+                    custom:selected_padding_right="3dp"
+                    custom:selected_width="8dp"
+                    custom:shape="oval"
+
+                    custom:unselected_color="#55555555"
+                    custom:unselected_height="4dp"
+                    custom:unselected_padding_left="3dp"
+                    custom:unselected_padding_right="3dp"
+                    custom:unselected_width="4dp" />
+            </RelativeLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/headlinersRipple"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                app:mrl_rippleColor="#ff0000">
+
+
+                <LinearLayout
+                    android:id="@+id/headliners"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/textHeadliners"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Proshows"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp" />
+
+                        <!--   <View
+                               android:layout_width="wrap_content"
+                               android:layout_height="2dp"
+
+                               android:layout_alignEnd="@+id/textHeadliners"
+                               android:layout_alignRight="@+id/textHeadliners"
+                               android:layout_below="@+id/textHeadliners"
+                               android:background="#d7d78773" />-->
+                    </RelativeLayout>
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/eventsRipple"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                app:mrl_rippleColor="#ff0000">
+
+                <LinearLayout
+                    android:id="@+id/events"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/textEvents"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Events"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp" />
+
+                        <!--     <View
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="2dp"
+
+                                 android:layout_alignEnd="@+id/textEvents"
+                                 android:layout_alignRight="@+id/textEvents"
+                                 android:layout_below="@+id/textEvents"
+                                 android:background="#ff79d1b4" />-->
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/scheduleRipple"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                app:mrl_rippleColor="#ff0000">
+
+                <LinearLayout
+                    android:id="@+id/schedule"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/textSchedule"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Schedule"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp" />
+
+                        <!--     <View
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="2dp"
+
+                                 android:layout_alignEnd="@+id/textEvents"
+                                 android:layout_alignRight="@+id/textEvents"
+                                 android:layout_below="@+id/textEvents"
+                                 android:background="#ff79d1b4" />-->
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/contactusRipple"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                app:mrl_rippleColor="#ff0000">
+
+                <LinearLayout
+                    android:id="@+id/contactUs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/textContactUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Contact Us"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp" />
+
+                        <!--  <View
+                              android:layout_width="wrap_content"
+                              android:layout_height="2dp"
+
+                              android:layout_alignEnd="@+id/textContactUs"
+                              android:layout_alignRight="@+id/textContactUs"
+                              android:layout_below="@+id/textContactUs"
+                              android:background="#ff6b5496" />-->
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/aboutusRipple"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                app:mrl_rippleColor="#ff0000">
+
+                <LinearLayout
+                    android:id="@+id/links"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/textLinks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="About Us"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp" />
+
+                        <!--  <View
+                              android:layout_width="wrap_content"
+                              android:layout_height="2dp"
+
+                              android:layout_alignEnd="@+id/textLinks"
+                              android:layout_alignRight="@+id/textLinks"
+                              android:layout_below="@+id/textLinks"
+                              android:background="#b1b1a873" />-->
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/gradient" />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/oneStageRipple"
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                app:mrl_rippleColor="#ff0000">
+
+                <LinearLayout
+                    android:id="@+id/oneStage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <TextView
+                            android:id="@+id/oneStageLinks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="OneStage"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp" />
+
+                        <!--  <View
+                              android:layout_width="wrap_content"
+                              android:layout_height="2dp"
+
+                              android:layout_alignEnd="@+id/textLinks"
+                              android:layout_alignRight="@+id/textLinks"
+                              android:layout_below="@+id/textLinks"
+                              android:background="#b1b1a873" />-->
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarSplashScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:background="@android:color/transparent">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:background="#f0000000"
+
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pearl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical"
+                android:text="Pearl'15"
+                android:textColor="@android:color/white"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/odyssey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pearl"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical"
+                android:text="Odyssey Of Legends"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+
+            android:paddingTop="15dp">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/activity_detail_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="#E64A19"
+
+                fab:fab_colorPressed="#000000"
+                fab:fab_icon="@drawable/ic_add_white_48dp"
+                fab:fab_size="mini" />
+            <!--   <com.balysv.materialripple.MaterialRippleLayout
+                   android:id="@+id/contextRipple"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:mrl_rippleColor="#ff0000">
+
+                   <ImageView
+                       android:id="@+id/contextMenuButton"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:scaleType="fitXY"
+                       android:src="@drawable/btn_add" />
+               </com.balysv.materialripple.MaterialRippleLayout>-->
+            <!--    <ImageButton
+                    android:id="@+id/activity_detail_fab"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/animated_ripple"
+                    android:elevation="4dp"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_keyboard_backspace_white_18dp"
+                    android:stateListAnimator="@anim/fab_animation"
+                    android:transitionName="fab" />-->
+        </LinearLayout>
+
+        <!--     <View
+                 android:layout_width="fill_parent"
+                 android:layout_height="2dp"
+                 android:layout_alignParentBottom="true"
+                 android:background="@android:color/background_dark" />-->
+    </RelativeLayout>
+
+</FrameLayout>

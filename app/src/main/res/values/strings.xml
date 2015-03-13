@@ -1,0 +1,746 @@
+<resources>
+    <string name="app_name">Pearl 2015</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="actionbar_title">Events</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_headliners">Headliners</string>
+    <string name="sample_text">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="context_menu">Context menu</string>
+    <string name="aboutUs">Pearl, the cultural extravaganza of BITS Pilani Hyderabad Campus is back to steal your hearts again this year. With the exquisite alter ego: Odyssey of Legends, Pearl ‘15 is set to be the salvation of the year-long efforts of the enthusiastic and passionate club members of diverse fields including but not restricted to Dance, Dramatics, Photography and Literary Appreciation. Witness BITS Pilani Hyderabad Campus as it transforms itself into a mythological battleground where creativity takes on indomitable spirit. Set against a legendary backdrop, Pearl in its renewed avatar brings to you an avenue for all your talents. This year we’re journeying off to every world with our passions personified as art. Pearl is the manifestation of the colors of every dreamer’s imagination. Pearl is that simultaneous reality that will whisk you away to those three days of pure enchantment. Pearl is all set to be the progeny of our campus culture and it is the one-stop platform where being ourselves unequivocally is the only option we’re given. And this is us inviting you to unfurl the raw enigma of Pearl and be a part of this glorious tradition. Engage yourself in the ecstatic pulse of Pearl this March and sway to its rhythms and intricacies!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_final">Splash_final</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_head_liners_final">HeadLinersFinal</string>
+    <string name="title_activity_events_final">Events_final</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+
+    <string name="cyphersText">Here we present to you, Style Royale, a Hip Hop Jam integrating various elements of Hip Hop to recreate the vibe and the essence of the culture for all you Hip Hop Junkies out there!
+For the first time in the history of Pearl, a dance competition unrivalled. Be prepared to be amazed by the show of a perfect mix of Musicality, Technique, Grooves, Flava, Vocabulary, Artistry, Originality and Execution from the best of the best. Bringing Street dance to Pearl for the first time - The Style Royale - 6 Cyphers. Witness the one-on-one battle of the best dancers from all over India that will blow away your mind!
+
+For 1v1 breaking -
+1st round are prelim battles -
+Participants go against each other and are scored on different criteria and handpicked top proceed with top 16.
+In the prelim battle, there is no winner / loser, it is only for selection for top 16. From top 16 and above till the semis, i.e semi finals, there will be 2 rounds / throwdowns per participant.
+
+Thus,
+Top 16 Selection / prelims - 1 round / throwdown per person
+Top 16 - 1 round / throwdown per person
+Top 8 - 1 round / throwdown per person
+Top 4 (Semis) - 2 rounds / throwdowns per person
+Top (Finals) - 3 rounds / throwdowns per person
+A total of 8 rounds for the entire battle.
+Time limit : max 1 minute throwdowns.
+
+For 1v1 Jack of Allstyles -
+1st round are prelim battles -
+Participants go against each other and are scored on different criteria and handpicked top proceed with top 16.
+In the prelim battle, there is no winner / loser, it is only for selection for top 16.
+Rounds / Throwdowns per battle -
+Top 16 Selection / prelims - 1 round / throwdown per person
+Time limit : max 30 second throwdowns.
+Top 16 - 3 rounds / throwdowns per person
+Time limit : max 30 second throwdowns.
+Top 8 - 3 rounds / throwdowns per person
+Time limit : max 30 second throwdowns.
+Top 4 (Semis) - 3 rounds / throwdowns per person
+Time limit : max 45 second throwdowns.
+Top (Finals) - 3 rounds / throwdowns per person
+Time limit : max 45 second throwdowns.
+A total of 13 rounds for the entire battle.
+Rules : 1st round will be Housing
+2nd round will be Hip Hop
+3rd round will be an Openstyle battle ( meaning it is a freestyle round, open to your choosing of style ).
+This pattern of the three rounds will continue from top 16 till the finals.
+Rs. 100 for the Style Royale entry fee. Rs. 100 for each category.
+</string>
+    <string name="missdivaText">Panache. Haute. Glamour.
+Not just words to us but commandments to live by. If you are a fellow fashion fairy and have the irresistible power to turn eyes wherever you go then allow us to crown you for it.
+This March, Pearl brings to you the ultimate campus diva hunt (MISS DIVA,Hyderabad Regional). Join us as we search for the diamonds in the hay stack.
+BE THE NEXT MISS DIVA</string>
+    <string name="worldfestText">For the very first time in the history of BITS Pilani Hyderabad Campus, we present you The World Fest! Two international performers performing on our national cultural fest Pearl\'15.
+
+1. Lisa Angel performing Hoola hoop on 14th March.
+2. Neptune Chapotin performing Unicycle fire stunts on 15th March.
+
+In association with The WorldFest and JebKhaali.in</string>
+    <string name="vhoneText">Pearl adds another element of delight to its lineup with Vh1 Supersonic confirming their arrival. Thus, making it Vh1\'s first ever appearance in Hyderabad, exclusively at BITS Pilani Hyderabad Campus With a blazing lineup, headed by the rollicking Nikhil Chinapa and followed by Tuhin Mehta, this one you surely don\'t want to miss!</string>
+    <string name="mudgal">Performing live for the Classical Night at Pearl\'15, we have a very special and acclaimed Odissi dancer, Arushi Mudgal.Coming from a family of classical artists, Arushi\'s talent and expertise are undisputed, having numerous exclusive performances throughout the world. In fact, she was among the artists who performed for Barack Obama in India.Come witness the spectacle of Indian classical dance, as we meet a living legend! </string>
+    <string name="quiz">If you think you are a movie buff, here are the quizzes- theTollywood quiz and the Bollywood Quiz .Come and register to show your filmy knowledge!!\”. We fabricated outstanding levels in every  quiz to keep you entertained as well as buzzed. Register in teams of 3 and win mind blowing prizes.</string>
+    <string name="bidding">To use your knowledge of the \‘Big Game\’ and your sixth sense to create the perfect team that goes on to lift the coveted Trophy. But this time stratergize with two big games-Cricket and Football</string>
+    <string name="treasureHunt">Are you a good detective??Do you have it in you to solve all the clues without breaking the rules??Then take a break on 14th March to play Treasure Hunt!!! Old in its name but we designed every clue to put you into exciting paths and take care you don\’t get stuck. Sharpen your wits and register in teams of 4-5 members.</string>
+    <string name="balloonShooting">The famous fair game is now in Pearl\’15. Informalz presents to you for the first time ever the traditional balloon shooting. Bring out the shooter in you. Find all the fizzy fun in the balloon popping sport. Come with all your friends and win exciting prizes each time you break out the mayhem!!! Venue: - Stage-2</string>
+    <string name="bullRide">Ever heard of the mechanical bull?? Ever wanted to ride it?? Well, it\’s here! The Biggest, Maddest Mechanical Bull has stampeded its way into our fest and this steer can be as gentle as a new born calf or be as wild as a raging bull. Don\’t miss the chance. Challenge your buddies on who rides it the best. So come, put on your cowboy hat and get ready to go for the ride of your life!</string>
+    <string name="paintBall">Play Paintball. Wondering if this is true??Yes it is and now in BPHC for the ultimate fest-Pearl\’15. Enter the frenzied paintball arena and take on the sharp-shooting opponents!!And now Happy Faces Beware! There\'s a paintballer with an itchy trigger finger in the office! Want to know how to score points-Just splatter those smiles with a sniper\'s skill!!!! Enter the field, get hurt but return as the triumphant……..Don\’t miss it-The field is awaiting you.Register as soon as possible.</string>
+    <string name="laserTag">An amazing high tech combination of tag and hide and seek… with the world\’s most advanced laser tag equipment available, Laser Game is played in a large black light arena with specialty lighting, fog and heart pounding music. Now for all this, you need not go anywhere. We brought you this adrenalin-pumping experience to BPHC .Informalz proudly presents to you, for the first time ever LASER TAG in Pearl\’15. So ready to battle out with all your team mates and win against the opponents. Hurry up, form a team and march against the enemies.</string>
+    <string name="oneStageText">“No disability can hinder true talent”.Apart from their own conditions, the physically and mentally challenged face issues such as social criticism, psychological issues, accessibility to services, safety and security.OneStage, a social initiative by students and alumni of NITW, has taken a step forwards to sensitize the crowd about the plight of the differently abled since 2012. OneStage is a talent platform which helps showcase the awe inspiring cultural talent of the challenged.BITS Pilani Hyderabad Campus proudly announces its association with OneStage for Pearl ’15. We request your presence for this celebration of the talent bestowed in every human, and your support for this wonderful initiative.</string>
+<string name="vishalShekharText">Brace yourselves for a night of crazy on-stage antics because we have set you up on a date with Bollywood\'s most happening duo!
+Presenting the Bollywood Night, featuring VISHAL SHEKHAR, brought to you in association with Eminence Group Of Entertainment.</string>
+    <string name="glitteratiText">Have you always been that master of charming people with your look? Haven\'t you wanted to win cash prizes for that walk you practice in front of the mirror? Use that alluring beauty, and show us what you\'ve got.Good news for you, as we\'ve extended the registration dates to March 10th! Send us a mail at glitterati.bphc@gmail.com to register. Bring that swagger to the ramp, this PEARL\'15.</string>
+<string name="tillDeafText">Quite arguably the signature event of Pearl .
+Preliminary rounds are held in various cities across the country like Bangalore, Chennai, Hyderabad and Mumbai.
+Undoubtedly one of the best platforms in the country for semi-professional bands, 6 teams make it to the finals, and the winner gets to open for our much acclaimed international act during Pearl 2015, apart from, of course, the hugely attractive prize money!
+
+Regional Rounds happened in Bangalore, Chennai, and Mumbai, and will happen in Hyderabad in the morning of March 13th. On the night of March 13th, the finalists from each city will battle it out and the ultimate winner gets to open for the international act of Pearl 2015, Xandria, along with a bunch of other goodies, and a huge cash prize.
+</string>
+    <string name="aspireTalksText">This Pearl 2015, we are back with Aspire Talks with a dazzling array of speakers from various walks of life. Their journeys will motivate you and give you impetus to pursue your dreams.
+
+We promise an unforgettable experience to those looking for insight and inspiration.</string>
+    <string name="googledText">Information Systems Association, BITS-Pilani Hyderabad Campus presents Googled, an event where none but only Google can be your saviour. So, if you know how to tame the beast, you are in for a roll!
+
+Googled shall comprise two rounds as follows:
+Qualifiers: Participating teams will have to find answers to a set of simple yet tricky, objective type questions using their googling skills.
+Finale: The challenge becomes tougher, trickier and all the more nerve wrecking. A sort of on-stage round wherein the selected teams from the previous round compete against each other to score a maximum, in order to ace the event.
+
+Event Rules
+1. On-spot registrations. Register in teams of two (strictly).
+2. A very nominal fee of INR 20/- per participant shall be charged for registration.
+3. Top 6 teams from the qualifier round battle it out in the final round.
+4. Rules for each round are intended to hold an element of surprise. Hence, will be revealed at the venue itself.
+5. Get your own stationery.
+6. No electronic gadgets of any type allowed in the venue.
+7. In any case of discrepancy, the decision of the organisers will be final and binding.
+Judging Criteria
+In general, weightage will be given to the response time and correctness of the answer. Rules specific to each round will be revealed at the venue.
+Date: March 13 and 14 (Qualifiers)
+
+Venue: IPCs, BITS-Pilani Hyderabad Campus
+
+Prize money worth INR 4,000/- (tentative)
+Contact:
+Santhosh Kumar Reddy: +91-9705254514
+Garvit Kandpal: +91-9705107105</string>
+    <string name="terpsicoreText">There are certain moments when one gets the impression of there being a form of collective consciousness that links people together. And there are few moments where one gets a higher dose of this, than when seeing a perfectly choreographed and coordinated dance.
+This Pearl, the Dance Club of BITS Pilani Hyderabad campus brings to you - Terpsichore. The ultimate battle of dance crews from all over India to be better than the best.
+Rules:
+1. Maximum of 16 participants per team.
+2. There will be 2 rounds after an initial elimination round.
+3. There will be an elimination round in The Dance Room
+
+Round I: THE GROUP DANCE :-
+1. Selected teams will be notified about the details of the First round
+2. Minimum six (6) dancers on stage.
+3. Team can\'t have only one dancer dancing for more than 15 seconds while other members are standing still.
+4. Time limit (excluding briefing time) Max: 8 min. Min: 5min.
+5. All forms of dance allowed.
+6. Weightage for costumes, music, choreography and coordination.
+7. Fusion allowed.
+8. Negative marking on exceeding time limit or if the number of dancers on stage are less than 6 and disqualification for exceeding the number of participants.
+9. If props are used, prior permission is required for their usage.
+10. Get your own CD/USB with music for the dance.
+11. No audio cassettes will be allowed.
+
+Round II: Footloose: (On the spot adaptation) 1. The music will keep changing, you will have to adapt to the beat.
+2. Organizers will provide music on the spot.
+3. There will have to be at least four dancers on stage at all times.
+4. Time limit: Max: 3 min, Min: 1min (Left to the discretion of the organizers).
+5. Weightage will be given for adaptation to change of music and pace of beat, coordination and choreography.
+6. No props allowed
+
+Prelims : March 14th
+
+Finals : March 15th</string>
+    <string name="bitsTakies">Ever seen a movie and all you could think of was how many different ways the same scene could have been played out? Ever replaced famous lines with your own concoctions? Well BITS \'Talkies\' gives you the opportunity to do just that.</string>
+    <string name="kaleidoscope">We bring to you the second edition of the national short film making competition and this year we have upped the challenge and its reward.</string>
+    <string name="slumberparty">Fests are lively and all during the day but we are creatures of the night. For my nocturnal bros we bring you the theatre that works all night. All night movie screening, popcorn and a few surprises, the ol’ filmy way.</string>
+    <string name="hourMovie">Friends! Romans! and Film making nuts! Lend me your ears! If you are the kind of person who enjoys making films on the go then this is your opportunity to make money out of it</string>
+    <string name="fixed">Create a story with visual effects - simple methods - and make a video.</string>
+    <string name="knights">Use Photoshop to uncover clues and hidden messages in an image.</string>
+    <string name="ma">Time to put your Maya skills to use in this modelling competition.</string>
+    <string name="mythicDigitalArt">As the name suggests it, It is a digital art competition where you should draw something from scratch</string>
+    <string name="manga">Making Manga characters for selected mythological characters (Theme based)</string>
+    <string name="sigillum">Design a logo for a company with a particular motto</string>
+    <string name="xandria">Dianne from Xandria invites you all to PEARL 2015! Catch them live on 14th of March. It is their debut in India.PEARL maintains its tradition of bringing down International bands and providing them their debut performance!</string>
+
+    <!--photog fest-->
+    <string name="themes">The official fashion parade of BITS Pilani Hyderabad Campus</string>
+    <string name="template">Use a given template and your imagination to click a photograph.</string>
+    <string name="photogRace">A unique concoction of photography and treasure-hunt !</string>
+    <string name="photogQuiz">Photography Quiz (How much of a photography geek are you?)</string>
+    <string name="lightPainting">Learn the art of Light-Painting and try your hand at it !</string>
+    <string name="fiestaChroma">Capture this festival of Pearl from your own point of view</string>
+    <string name="expressions">Candid portrait photography competition</string>
+    <string name="cmyk">Image post-processing competition</string>
+    <string name="anti_image">Click a picture logically and technically opposite to given one</string>
+
+
+    <!--drama-->
+    <string name="online_drama">Dramatics club are here with a fun event to encourage some creative talent as we look to laugh our a**es off at the entries we receive.</string>
+    <string name="mono_acting">Mono acting is a very interesting art form which involves both acting as well as intelligence. There is only one place – The stage, where you can be anybody you want. We have all dreamt of going up on the stage and owning it to the dust. Each participant in the preliminary round is allowed 4 + 1 minutes on stage to perform a piece of their choice.</string>
+    <string name="nukkad">Nukkad natak, as the name suggests, nukkad means road-side and natak means play. It is a form of theatrical performance and presentation in outdoor public spaces without a specific paying audience. Whatever the reason for choosing the street, the street is a place with a different set of possibilities than the conventional theatre space.</string>
+    <string name="pastiche">Charlie Chaplin famously said, \“All I need to make a comedy is a park, a policeman and a pretty girl.\” If you can find something funny in the dreariest of situations and manage to make a crowd laugh along with you, BITS Pilani Hyderabad invites you to the Spoof competition during Pearl ‘15. Come be the sun that drives winter from faces!</string>
+    <string name="natyasastra">So you think you are a theatre artist? Then here is your chance to prove your mettle in this stage play event.</string>
+    <string name="deafndumb">DEAF AND DUMB in association with INDIAN MIME ACADEMY! Step into the world of black and white where there is no dialogues. Each team can have a maximum of 10 members. Single performers are also allowed. Time limit is 9+1 minutes for each performance. Negative points for exceeding the time beyond 10 minutes</string>
+
+
+    <!--music-->
+    <string name="gandhara">If you think you\'ve mastered your vocal chords, or your instruments in this beautiful discipline, then show us your talent in Gandhaara.</string>
+    <string name="indiana_tones">Can you make the crowd go wild to your music? Then this is where you should be</string>
+    <string name="jhankaar">Solo Singing Competition</string>
+    <string name="pearl_jam">Join us while we unplug and play music as it was meant to be.</string>
+    <string name="score_d">Nationwide search for the best rock and metal semi-professional bands. Winner gets to open for our much acclaimed international act during Pearl 2015, apart from a huge prize money.</string>
+    <!--dance-->
+    <string name="abhivyaktila">The grandeur and grace of the classical dances continue to mystify souls and assuage our desire for musical harmony. Spanning the classical dances of odissi, Kathak, Kuchipudi, Bharatanatyam, Manipuri, Kathakali and Mohiniaatam.</string>
+    <string name="soul_o">Put your best foot forward. Dance with your heart and soul.</string>
+
+
+    <!--Art-->
+    <string name="avant_grade">Live painting event where the participant has to select any landscape or object on campus and paint it 2 hours with one single colour of their choice.</string>
+    <string name="schedios">Individual Sketching Event</string>
+    <string name="spawn_it">Make your own comic character with a theme given.</string>
+    <string name="waste_smart">TBest out of waste – the team has to design a costume with the junk, with face painting.</string>
+
+
+    <!--literary-->
+    <string name="anti_ship">Speak your way out of trouble, as you help decide which character misses a lifejacket on the sinking ship.</string>
+    <string name="double_trouble">Debate with your evil twin in a verbal duel. No strings attached, no holds barred.</string>
+    <string name="jam">Blab your way through the mod\'s hoops and spot the right errors of your opponents to be the victor in this lightning fast event</string>
+    <string name="sherlocked">Crime, suspects, motives, evidence... can you unravel the web of lies and file an objective report?</string>
+    <string name="worlds_of_a_fether">Connect the words to spin a tale in half an hour.</string>
+    <string name="ying_yang">Pen a piece in the first half - then unravel your partner\'s, in the second.</string>
+
+
+    <!--quiz-->
+    <string name="business_quiz">How well do you know about Dalal Street or Goldman Sachs? Test your knowledge of all things Biz in this quiz.</string>
+    <string name="entertainment_quiz">Is watching TV Series and Movies your thing? Do you know about every fan theory in existence? If so, here\'s your time to shine. The Ent Quiz</string>
+    <string name="india_quiz">The classic India quiz. A medley of questions encompassing everything and anything Indian.</string>
+    <string name="midnight_av">One high voltage ear-numbing brain-wracking quiz to begin your Pearl. Audio-Visual quiz, starting on Midnight.</string>
+    <string name="pearl_general">Wrack your brain cells and have your grey cells work overtime to crack trivia and work out the answers.</string>
+    <string name="sports_quiz">From Messi to Dhoni, from Sania to Saina; this quiz will test you on all things Sports.</string>
+    <string name="potpourri_quiz">An assortment of refreshingly different and unpredictable questions. Come and see for yourself!</string>
+
+    <!--journal-->
+    <string name="front_page">\'Here are 3 easy ways to win quick money this Pearl\'. Especially if you have the knack for making headlines that catch the eye.</string>
+    <string name="fourth_estate">Use more than mere words, as you use pictures, snippets and more to depict your story.</string>
+    <string name="football_manager">Put yourself in the manager\'s shoes as you simulate the big deals and last minute panic buys of a the transfer window.</string>
+
+    <!--hindi-->
+    <string name="abhilekh">वो कहते हैं ना की कलम की ताकत तलवार की ताकत से अधिक होती है। इसी क्रम में आह्वान करते हैं आप सभी का रचनात्मक हिंदी लेखन प्रतियोगिता अभिलेख में, जहाँ पर आपको अपनी कल्पना को शब्दों की डोर से बांधने की शक्ति प्रदान की जाएगी।</string>
+    <string name="stand_up_comedy">Hasiye aur hasaiye, aur saath mei prize bhi lete jaiye.</string>
+    <string name="youth_mahasabha">भारतीय लोकसभा की कार्यप्रणाली एवं उथल पुथल पे आधारित एक ऐसा अद्भुत वाद विवाद जहाँ पर आप अपने वर्चस्व की महिमा बनाये रखने के लिए मैदान में उतरेंगे।</string>
+    <string name="title_activity_search_fly">SearchFlyActivity</string>
+    <string name="title_activity_nifty_test">NiftyTestActivity</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_day_one_schedule">day_one_schedule</string>
+    <string name="title_activity_day_0ne_schedule">Day_0ne_schedule</string>
+    <string name="title_activity_day__one">Day_One</string>
+    <string name="fraglore">The annual Gaming event of Bits-Pilani Hyderabad campus. Spanning over 3 days of non stop gaming involving games like Counter Strike 1.6 , DOTA, FIFA CoD:MW and Blur, it is one of the biggest gaming festivals in India.Fraglore 2014 was a national level Lan-Gaming event conducted during Pearl14 - the annual cultural and technical festival of BITS Pilani Hyderabad campus and sponsored by Sparkle Computers and SVM mall.Top players and clans from all over India are expected to attend the event.</string>
+    <string name="advaita">Advaita are perhaps the most traditional of all the top rock bands in the country today, fusing together breathtaking classical musicianship with Sting-toned soft rock. One of the four Indian bands to be selected by the legendary producer John Leckie for British Council\'s SoundPad, they have established themselves as one of the best live acts in the country by constantly headlining stages in premier music fests such as NH7 Weekender as well as featuring in shows like Coke Studio and MTV Unplugged.Must listen tracks include : Mofunk, Durga, Miliha, Rasiya, Ghir Ghir, and Words.</string>
+    <string-array name="dayOneMorningEventNames">
+        <item>CATHARSIS</item>
+        <item>INFORMALZ</item>
+        <item>INFORMALZ</item>
+        <item>FRAGLORE</item>
+        <item>FRAGLORE</item>
+        <item>TILL DEAF DO WE PART - REGIONALS</item>
+        <item>JAM-PRELIMS</item>
+        <item>THE FRONT PAGE</item>
+        <item>INDIA QUIZ</item>
+        <item>CLASSICAL DANCE WORKSHOP</item>
+        <item>SPAWN IT</item>
+        <item>KNIGHTS TEMPLAR CIPHERS</item>
+    </string-array>
+    <string-array name="dayOneMorningEventRooms">
+        <item>F 104</item>
+        <item>F 107</item>
+        <item>F 108</item>
+        <item>G 105</item>
+        <item>G 106</item>
+        <item>STAGE 2</item>
+        <item>F 203</item>
+        <item>F 103</item>
+        <item>F 102</item>
+        <item>DANCE ROOM</item>
+        <item>F 201</item>
+        <item>F 202</item>
+
+    </string-array>
+    <string-array name="dayOneMorningEventCost">
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+
+    </string-array>
+    <string-array name="dayOneMorningEventTime">
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>9:00 am</item>
+        <item>9:00 am</item>
+        <item>10:00 am</item>
+        <item>10:30 am</item>
+        <item>11:00 am</item>
+        <item>11:00 am</item>
+        <item>11:00 am</item>
+
+    </string-array>
+    <string-array name="dayOneAfternoonEventNames">
+        <item>GANDHAARA</item>
+        <item>BASIC WORKSHOP(PHOTOG)</item>
+        <item>JAM-FINALS</item>
+        <item>MONO ACTING PRELIMS</item>
+        <item>SCORE-D</item>
+        <item>EXPRESSIONS</item>
+        <item>OPEN OUTCRY</item>
+        <item>GROUND REALITY</item>
+        <item>MISS DIVA</item>
+        <item>ENTERTAINMENT QUIZ</item>
+        <item>NUKKAD NAATAK</item>
+        <item>TALK BY CHANDRASEKHAR SINGH (PHOTOG)</item>
+        <item>GOOGLED-PRELIMS</item>
+        <item>GUESS WHAT</item>
+    </string-array>
+    <string-array name="dayOneAfternoonEventRooms">
+        <item>F 105</item>
+        <item>F 106</item>
+        <item>G 203</item>
+        <item>G 107</item>
+        <item>MUSIC ROOM</item>
+        <item>F 106</item>
+        <item>F 102</item>
+        <item>F 103</item>
+        <item>AUDITORIUM</item>
+        <item>F 105</item>
+        <item>LTC LOBBY</item>
+        <item>F 106</item>
+        <item>IPC 2</item>
+        <item>F 106</item>
+    </string-array>
+    <string-array name="dayOneAfternoonEventCost">
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>    </item>
+        <item>Free</item>
+
+    </string-array>
+    <string-array name="dayOneAfternoonEventTime">
+        <item>12:00 pm</item>
+        <item>12:00 pm</item>
+        <item>12:00 pm</item>
+        <item>1:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>3:00 pm</item>
+        <item>3:00 pm</item>
+        <item>3:30 pm</item>
+        <item>4:30 pm</item>
+        <item>5:00 pm</item>
+    </string-array>
+
+
+    <string-array name="dayOneEveningEventNames">
+        <item>LIGHT PAINTING WORKSHOP</item>
+        <item>COKE STUDIO- ADVAITA</item>
+        <item>TILL DEAF DO WE PART - FINALS</item>
+    </string-array>
+    <string-array name="dayOneEveningEventRooms">
+        <item>Rocks</item>
+        <item>STAGE 1</item>
+        <item>STAGE 1</item>
+
+    </string-array>
+    <string-array name="dayOneEveningEventCost">
+        <item>Free</item>
+        <item>    </item>
+        <item>Free</item>
+    </string-array>
+    <string-array name="dayOneEveningEventTime">
+        <item>7:00 pm</item>
+        <item>7:00 pm</item>
+        <item>9:00 pm</item>
+
+    </string-array>
+
+
+    <string-array name="dayTwoEveningEventNames">
+        <item>TILL DEAF DO WE PART Winner</item>
+        <item>XANDRIA</item>
+        <item>GLITTERATI-FINALS</item>
+
+        <item>SHERLOCKED</item>
+        <item>LIGHT PAINTING WORKSHOP</item>
+    </string-array>
+    <string-array name="dayTwoEveningEventRooms">
+        <item>STAGE 1</item>
+        <item>STAGE 1</item>
+        <item>STAGE 1</item>
+        <item>F 102</item>
+        <item>Rocks</item>
+
+
+    </string-array>
+    <string-array name="dayTwoEveningEventCost">
+        <item>Free</item>
+        <item>    </item>
+        <item>Free</item>
+
+        <item>Free</item>
+        <item>Free</item>
+
+    </string-array>
+    <string-array name="dayTwoEveningEventTime">
+        <item>7:00 pm</item>
+        <item>8:00 pm</item>
+        <item>10:00 pm</item>
+        <item>12:00 am</item>
+        <item>2:00 am</item>
+
+
+    </string-array>
+
+    <string-array name="dayTwoMorningEventNames">
+        <item>JHANKAAR PRELIMS</item>
+        <item>INFORMALZ</item>
+        <item>INFORMALZ</item>
+        <item>FRAGLORE</item>
+        <item>FRAGLORE</item>
+        <item>TERPSICHORE-PRELIMS</item>
+        <item>SOUL\'O-PRELIMS</item>
+        <item>GLITTERATI-PRELIMS</item>
+        <item>PEARL JAM</item>
+        <item>DOUBLE TROUBLE-PRELIMS</item>
+        <item>CEL-BITS BUSINESS QUIZ</item>
+        <item>MYTHIC DIGITAL ART</item>
+        <item>STAGE PLAY-PRELIMS</item>
+        <item>PICTURE-IT</item>
+        <item>HIP-HOP WORKSHOP</item>
+        <item>POST PROCESSING WORKSHOP</item>
+        <item>STAND UP COMEDY-SHIVAM MITTAL</item>
+
+    </string-array>
+    <string-array name="dayTwoMorningEventRooms">
+        <item>Music Room</item>
+        <item>F 107</item>
+        <item>F 108</item>
+        <item>G 105</item>
+        <item>G 106</item>
+        <item>Dance Room</item>
+        <item>Dance Room</item>
+        <item>LTC LOBBY</item>
+        <item>STAGE 2</item>
+        <item>F 103</item>
+        <item>F 105</item>
+        <item>G 207</item>
+        <item>F 102</item>
+        <item>F 106</item>
+        <item>Dance Room </item>
+        <item>F 106</item>
+        <item>F 107</item>
+
+    </string-array>
+    <string-array name="dayTwoMorningEventCost">
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>9:00 am</item>
+        <item>9:00 am</item>
+        <item>9:00 am</item>
+        <item>9:00 am</item>
+        <item>10:00 am</item>
+        <item>10:00 am</item>
+        <item>10:00 am</item>
+        <item>10:00 am</item>
+        <item>10:00 am</item>
+        <item>11:00 am</item>
+        <item>11:00 am</item>
+        <item>11:00 am</item>
+
+    </string-array>
+    <string-array name="dayTwoMorningEventTime">
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+
+    </string-array>
+
+
+    <string-array name="dayTwoAfternoonEventNames">
+        <item>ABHIVYAKTHI</item>
+        <item>CMYK</item>
+        <item>DOUBLE TROUBLE-FINALS</item>
+        <item>ABHIVYAKTIKA</item>
+        <item>MONOACTING-FINALS</item>
+        <item>SCHEDIOS</item>
+        <item>WORDS OF A FEATHER</item>
+        <item>SOUL\'O FINALS</item>
+        <item>SPORTS QUIZ</item>
+        <item>FLINTSTONES</item>
+        <item>SIGILLUM</item>
+        <item>CYPHERS</item>
+        <item>MIME WORKSHOP</item>
+        <item>TALK BY KISHOR KRISHNAMOORTHY </item>
+        <item>BLUFFMASTER</item>
+        <item>PHOTOG RACE</item>
+        <item>GOOGLED-PRELIMS</item>
+        <item>FOOTBALL MANAGER</item>
+        <item>MINUGURULU-MOVIE SCREENING </item>
+
+    </string-array>
+    <string-array name="dayTwoAfternoonEventRooms">
+        <item>G 107</item>
+        <item>F 106</item>
+        <item>F 103</item>
+        <item>B 301</item>
+        <item>G 107</item>
+        <item>F 201</item>
+        <item>F 202</item>
+        <item>STAGE 2</item>
+        <item>F 102</item>
+        <item>F 105</item>
+        <item>G 207</item>
+        <item>B-BLOCK LOBBY</item>
+        <item>Dance Room</item>
+        <item>F 106</item>
+        <item>F 103</item>
+        <item>Mess-1 LAWNS</item>
+        <item>IPC 2</item>
+        <item>F 105</item>
+        <item>AUDITORIUM</item>
+
+    </string-array>
+    <string-array name="dayTwoAfternoonEventCost">
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>    </item>
+        <item>Free</item>
+        <item>    </item>
+
+    </string-array>
+    <string-array name="dayTwoAfternoonEventTime">
+        <item>12:00 pm</item>
+        <item>12:30 pm</item>
+        <item>1:00 pm</item>
+        <item>1:00 pm</item>
+        <item>1:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>3:00 pm</item>
+        <item>3:00 pm</item>
+        <item>3:00 pm</item>
+        <item>3:00 pm</item>
+        <item>4:00 pm</item>
+        <item>4:00 pm</item>
+        <item>5:00 pm</item>
+        <item>5:00 pm</item>
+
+    </string-array>
+
+
+    <string-array name="dayThreeEveningEventNames">
+        <item>VISHAL SHEKHAR</item>
+        <item>VH1 SUPERSONIC</item>
+    </string-array>
+    <string-array name="dayThreeEveningEventRooms">
+        <item>STAGE 1</item>
+        <item>STAGE 1</item>
+    </string-array>
+    <string-array name="dayThreeEveningEventCost">
+        <item>    </item>
+        <item>    </item>
+    </string-array>
+    <string-array name="dayThreeEveningEventTime">
+        <item>7:00 pm</item>
+        <item>9:00 pm</item>
+    </string-array>
+
+
+    <string-array name="dayThreeAfternoonEventNames">
+        <item>GOOGLED-FINALS</item>
+        <item>TEMPLATE</item>
+        <item>AVANT GARDE</item>
+        <item>THE FOURTH ESTATE</item>
+        <item>ASPIRE TALKS </item>
+        <item>TERPSICHORE-FINALS</item>
+        <item>JHANKAAR-FINALS</item>
+        <item>THE POTPOURRI QUIZ</item>
+        <item>ANTI-MAGE BIDDING</item>
+        <item>ANTI-SHIPWRECK PRELIMS</item>
+        <item>MIME - DEAF AND DUMB</item>
+        <item>SHOWCASE</item>
+        <item>WASTE SMART</item>
+        <item>TALK BY RAKESH KURRA</item>
+        <item>ANTI-SHIPWRECK FINALS</item>
+        <item>ANTI-SHIPWRECK FINALS</item>
+
+    </string-array>
+    <string-array name="dayThreeAfternoonEventRooms">
+        <item>IPC 2</item>
+        <item>F 106</item>
+        <item>Rocks</item>
+        <item>F 201</item>
+        <item>F 105</item>
+        <item>AUDITORIUM</item>
+        <item>STAGE 2</item>
+        <item>F 103</item>
+        <item>F 204</item>
+        <item>F 202</item>
+        <item>F 102</item>
+        <item>F 106</item>
+        <item>STAGE 2</item>
+        <item>F 106</item>
+        <item>F 202</item>
+        <item>F 203</item>
+
+    </string-array>
+    <string-array name="dayThreeAfternoonEventCost">
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+
+    </string-array>
+    <string-array name="dayThreeAfternoonEventTime">
+        <item>12:00 pm</item>
+        <item>12:30 pm</item>
+        <item>1:00 pm</item>
+        <item>1:00 pm</item>
+        <item>1:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>2:00 pm</item>
+        <item>3:00 pm</item>
+        <item>4:00 pm</item>
+        <item>4:00 pm</item>
+        <item>4:00 pm</item>
+
+    </string-array>
+
+    <string-array name="dayThreeMorningEventNames">
+        <item>INDIANA TONES</item>
+        <item>INFORMALZ</item>
+        <item>INFORMALZ</item>
+        <item>FRAGLORE</item>
+        <item>FRAGLORE</item>
+        <item>STAGE PLAY-FINALS</item>
+        <item>PHOTOG QUIZ</item>
+        <item>YOUTH MAHA SABHA</item>
+        <item>YIN YANG</item>
+        <item>PEARL GENERAL QUIZ</item>
+        <item>TALK BY DEBARSHI DUTTAGUPTA</item>
+        <item>SALSA WORKSHOP</item>
+
+    </string-array>
+    <string-array name="dayThreeMorningEventRooms">
+        <item>STAGE 2</item>
+        <item>F 107</item>
+        <item>F 108</item>
+        <item>G 105</item>
+        <item>G 106</item>
+        <item>AUDITORIUM</item>
+        <item>F 106</item>
+        <item>F 105</item>
+        <item>F 103</item>
+        <item>F 102</item>
+        <item>F 106</item>
+        <item>Dance Room</item>
+
+    </string-array>
+    <string-array name="dayThreeMorningEventCost">
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+
+
+    </string-array>
+    <string-array name="dayThreeMorningEventTime">
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>8:00 am</item>
+        <item>10:00 am</item>
+        <item>10:00 am</item>
+        <item>10:00 am</item>
+        <item>10:00 am</item>
+        <item>11:00 am</item>
+        <item>11:00 am</item>
+
+    </string-array>
+    <string name="title_activity_test">TestActivity</string>
+</resources>
